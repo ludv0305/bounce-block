@@ -54,8 +54,8 @@ while on:
         x = player_pos[0]
         y = player_pos[1]
 
-        x -= 3
-        y -= 10
+        x -= 5
+        y -= 8
 
         player_pos = [x, y]
 
@@ -69,8 +69,8 @@ while on:
         x = player_pos[0]
         y = player_pos[1]
 
-        x += 8
-        y -= 3
+        x += 3
+        y -= 10
         player_pos = [x, y]
 
     if y <= 0:
